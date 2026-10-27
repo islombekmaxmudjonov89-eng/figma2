@@ -1,0 +1,95 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "title": "Paris Getaway",
+      "country": "France",
+      "price": 1200,
+      "duration": "5 Days",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+      "description": "Explore the Eiffel Tower, Louvre Museum, and charming Parisian streets."
+    },
+    {
+      "id": "3",
+      "title": "Tokyo Experience",
+      "country": "Japan",
+      "price": 1800,
+      "duration": "7 Days",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+      "description": "Discover modern Japan, temples, and delicious sushi."
+    },
+    {
+      "id": "4",
+      "title": "Bali Escape",
+      "country": "Indonesia",
+      "price": 850,
+      "duration": "6 Days",
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4",
+      "description": "Relax on tropical beaches and visit beautiful temples."
+    },
+    {
+      "id": "5",
+      "title": "Swiss Alps Tour",
+      "country": "Switzerland",
+      "price": 2100,
+      "duration": "8 Days",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+      "description": "Enjoy breathtaking mountain landscapes and train rides."
+    },
+    {
+      "id": "6",
+      "title": "Rome Holiday",
+      "country": "Italy",
+      "price": 1100,
+      "duration": "5 Days",
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1529260830199-42c24126f198",
+      "description": "Visit the Colosseum, Vatican City, and authentic Italian cafes."
+    },
+    {
+      "id": "7",
+      "title": "Maldives Luxury",
+      "country": "Maldives",
+      "price": 2500,
+      "duration": "6 Days",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd",
+      "description": "Stay in overwater villas with crystal-clear ocean views."
+    },
+    {
+      "id": "8",
+      "title": "New York City",
+      "country": "USA",
+      "price": 1400,
+      "duration": "5 Days",
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2",
+      "description": "Explore Times Square, Central Park, and the Statue of Liberty."
+    },
+    {
+      "id": "9",
+      "title": "Santorini Dreams",
+      "country": "Greece",
+      "price": 1600,
+      "duration": "6 Days",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "description": "Enjoy white-blue houses, sunsets, and the Aegean Sea."
+    },
+    {
+      "id": "10",
+      "title": "Istanbul Journey",
+      "country": "Turkey",
+      "price": 700,
+      "duration": "4 Days",
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200",
+      "description": "Discover Hagia Sophia, Bosphorus cruises, and Turkish cuisine."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

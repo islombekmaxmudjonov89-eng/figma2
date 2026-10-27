@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuscany Travel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Tuscany</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Tour Packages</a>
+      <a href="#">Contact Us</a>
+    </nav>
+    <div class="nav-right">
+      <span>Eng &#x25BE;</span>
+      <a href="#" class="login">Login</a>
+      <button class="btn-signup">Sign Up</button>
+    </div>
+  </header>
+
+  <section class="container">
+    <h1 class="section-title">Tour Packages</h1>
+    <div id="tours-container" class="cards-grid"></div>
+  </section>
+
+  <section class="booking-section">
+    <h2 class="booking-title">Add / Manage Destination</h2>
+    <div class="booking-wrapper">
+      
+      <form id="booking-form" class="booking-form">
+        <div class="form-group">
+          <label for="itemTitle">Title</label>
+          <input type="text" id="itemTitle" placeholder="Enter tour title">
+        </div>
+
+        <div class="form-group">
+          <label for="itemCity">City / Country</label>
+          <input type="text" id="itemCity" placeholder="Enter city or country">
+        </div>
+
+        <div class="form-group full-width">
+          <label for="itemImage">Image URL (img)</label>
+          <input type="text" id="itemImage" placeholder="Enter image link">
+        </div>
+
+        <div class="form-group full-width">
+          <label for="itemDescription">Description</label>
+          <textarea id="itemDescription" placeholder="Enter description" rows="3"></textarea>
+        </div>
+
+        <div class="form-btn-wrapper">
+          <button type="submit" class="btn-book">Save Destination</button>
+        </div>
+      </form>
+
+      <div class="empty-image-box"></div>
+        <img src="./assets/bike.svg" alt="">
+    </div>
+  </section>
+
+  <section class="testimonials-section">
+    <div class="testimonials-header">
+      <h2>Happy Customers Says</h2>
+      <div class="slider-buttons">
+        <button class="slider-btn">&lt;</button>
+        <button class="slider-btn">&gt;</button>
+      </div>
+    </div>
+    
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="customer-avatar">
+          <img src="./assets/Ellipse 4.svg" alt="Customer">
+        </div>
+        <h3>Lyod Gomez</h3>
+        <p class="testimonial-text">
+          But I must explain to you how all this mistaken idea of denouncing pleasure...
+        </p>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="customer-avatar">
+          <img src="./assets/Ellipse 4.svg" alt="Customer">
+        </div>
+        <h3>Lyod Gomez</h3>
+        <p class="testimonial-text">
+          But I must explain to you how all this mistaken idea of denouncing pleasure...
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <div class="footer-col">
+        <img src="./assets/logo.svg" alt="Logo" class="footer-logo">
+      </div>
+
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#">Bike and Rickshaw rental</a></li>
+          <li><a href="#">Guided Tours of Lucca</a></li>
+          <li><a href="#">Guided Bike Tour of Lucca</a></li>
+          <li><a href="#">Trip In The Tuscan Hills</a></li>
+          <li><a href="#">Transportation With Luxury Cars</a></li>
+          <li><a href="#">Wine Tours By Bus With Guide</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Home</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Tour Packages</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Help</h3>
+        <ul>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Provicy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contacts</h3>
+        <p>📍 Piazza Napoleone, Lucca, Tuscany</p>
+        <p>📞 +39 346 368 5708</p>
+        <p>✉️ italiainlimo@gmail.com</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Social Media</h3>
+        <div class="social-icons">
+          <a href="#"><img src="https://api.iconify.design/ri:twitter-fill.svg?color=%23ffffff" alt="Twitter"></a>
+          <a href="#"><img src="https://api.iconify.design/ri:facebook-fill.svg?color=%23ffffff" alt="Facebook"></a>
+          <a href="#"><img src="https://api.iconify.design/ri:instagram-fill.svg?color=%23ffffff" alt="Instagram"></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>Copyright © 2022. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script src="./app.js"></script>
+</body>
+</html>
